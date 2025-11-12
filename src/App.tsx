@@ -1,6 +1,7 @@
 import "./index.css";
 import PricingForm from "./components/PricingForm";
 import HealthCheck from "./components/HealthCheck";
+import ThemeToggle from "./components/ThemeToggle";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <footer className="p-4 text-center text-gray-500 text-sm bg-gray-100">
         © {new Date().getFullYear()} Morningwood AI
       </footer>
+      <ThemeToggle />
     </div>
   );
 }
