@@ -19,3 +19,8 @@ body {
 .dark footer {
   @apply bg-gray-800 text-gray-400;
 }
+
+/* ✨ Add this so cards darken slightly in dark mode */
+.dark .card {
+  @apply bg-gray-800 text-gray-100;
+}
